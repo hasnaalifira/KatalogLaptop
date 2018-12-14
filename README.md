@@ -8,7 +8,7 @@
 Aplikasi Katalog Laptop adalah sebuah aplikasi yang digunakan untuk mengetahui daftar laptop terbaik dan spesifikasinya yaitu terdapat merk laptop, tipe laptop, ram, processor dan harga laptop
 
 ## Screenshots
-+ ![](KatalogLaptop/image/a.jpeg)
++ ![](image/a.jpeg)
 ![](Uts/image/b.jpeg)
 ![](Uts/image/b1.jpeg)
 ![](Uts/image/c.jpeg)
