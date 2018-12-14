@@ -19,6 +19,7 @@ Aplikasi Katalog Laptop adalah sebuah aplikasi yang digunakan untuk mengetahui d
 Grandle Build v28 Minimum Android API 22, Android Version 5.1 (Lollipop)
 
 ## List class
+## Katalog Laptop Admin
 + Suka.java
 + GetSuka.java
 + PostPutDelSuka.java
@@ -30,6 +31,8 @@ Grandle Build v28 Minimum Android API 22, Android Version 5.1 (Lollipop)
 + OpsiMenu.java
 + ApiClient.java
 + ApiInterface.java
+
+## KatalogLaptopUser
 
 
 
