@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/wallpaper"
+    tools:context=".LayarDetail">
+
+    <TextView
+        android:id="@+id/tvIdSuka2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id Suka : "
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvIdLaptop2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id Laptop: "
+        android:layout_below="@id/tvIdSuka2"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvidUser2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="id User : "
+        android:layout_below="@id/tvIdLaptop2"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/edtIdSuka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="id suka"
+        android:layout_toRightOf="@+id/tvIdSuka2"
+        android:layout_alignBaseline="@+id/tvIdSuka2"/>
+    <EditText
+        android:id="@+id/edtIdLaptop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="id pembelian"
+        android:layout_alignBaseline="@+id/tvIdLaptop2"
+        android:layout_alignLeft="@+id/edtIdSuka"/>
+    <EditText
+        android:id="@+id/edtIdUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Id User"
+        android:layout_alignBaseline="@+id/tvidUser2"
+        android:layout_alignLeft="@+id/edtIdSuka" />
+
+    <LinearLayout
+        android:id="@+id/Linearlayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/tvIdSuka2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="10dp">
+        <Button
+            android:id="@+id/btInsert2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Insert"
+            />
+        <Button
+            android:id="@+id/btUpdate2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update" />
+        <Button
+            android:id="@+id/btDelete2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete" />
+        <Button
+            android:id="@+id/btBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvMessage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesan Muncul disini"
+        android:layout_below="@+id/Linearlayout2"
+        android:textSize="20sp"
+        android:inputType="textMultiLine"/>
+
+
+</RelativeLayout>

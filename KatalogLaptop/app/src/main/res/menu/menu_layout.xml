@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <item android:id="@+id/menuListSuka"
+        android:title="List Suka"/>
+    <item android:id="@+id/menuTambahTransSuka"
+        android:title="Tambah Trans Suka"/>
+    <item android:id="@+id/menuListLaptop"
+        android:title="List Laptop"/>
+    <item android:id="@+id/menuInsertDataLaptop"
+        android:title="Insert Data Laptop"/>
+</menu>

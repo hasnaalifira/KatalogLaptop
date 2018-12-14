@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/tvMerk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:hint="Merk"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/imgLaptop"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/tvMerk"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/laptop" />
+
+        <TextView
+            android:id="@+id/tvIdLaptop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imgLaptop"
+            android:layout_below="@id/tvIdLaptop"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imgLaptop"
+            android:hint="Id Laptop"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tvTipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvIdLaptop"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imgLaptop"
+            android:hint="Tipe :"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvTipeContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvTipe"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imgLaptop"
+            android:hint="ABC"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tvRam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvTipeContent"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imgLaptop"
+            android:hint="Ram :"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvRamContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvRam"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imgLaptop"
+            android:hint="4"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tvProcessor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvRamContent"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imgLaptop"
+            android:hint="Processor :"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvProcessorContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvProcessor"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imgLaptop"
+            android:hint="intel"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tvWarna"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvProcessorContent"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imgLaptop"
+            android:hint="Warna :"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvWarnaContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvWarna"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imgLaptop"
+            android:hint="hitam"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tvHarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvWarnaContent"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imgLaptop"
+            android:hint="Harga :"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvHargaContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvHarga"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imgLaptop"
+            android:hint="4000000"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"/>
+</LinearLayout>

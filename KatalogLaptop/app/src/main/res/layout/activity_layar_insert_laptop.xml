@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:background="@drawable/wallpaper"
+    tools:context=".LayarInsertLaptop">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/imgAddPhotoId"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/laptop" />
+
+        <Button
+            android:id="@+id/btAddPhotoId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/imgAddPhotoId"
+            android:layout_centerHorizontal="true"
+            android:text="Pilih Foto"/>
+
+        <!--<Button-->
+            <!--android:id="@+id/btnCapture"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Take a Picture"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_below="@+id/imgAddPhotoId"-->
+            <!--android:layout_toRightOf="@+id/btAddPhotoId"-->
+            <!--android:layout_centerHorizontal="true"/>-->
+
+        <TextView
+            android:id="@+id/tvAddMerk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/btAddPhotoId"
+            android:layout_marginRight="50dp"
+            android:text="Merk :"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/edtAddMerkLaptop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvAddMerk"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/tvAddMerk"
+            android:hint="Merk" />
+
+        <TextView
+            android:id="@+id/tvAddTipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvAddMerk"
+            android:text="Tipe :"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/edtAddTipeLaptop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvAddTipe"
+            android:layout_alignLeft="@+id/edtAddMerkLaptop"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/tvAddTipe"
+            android:hint="Tipe" />
+
+        <TextView
+            android:id="@+id/tvAddRam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvAddTipe"
+            android:text="Ram :"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/edtAddRamLaptop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvAddRam"
+            android:layout_alignLeft="@+id/edtAddMerkLaptop"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/tvAddRam"
+            android:hint="Ram"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/tvAddProcessor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvAddRam"
+            android:text="Processor :"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/edtAddProcessorLaptop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvAddProcessor"
+            android:layout_alignLeft="@+id/edtAddMerkLaptop"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/tvAddProcessor"
+            android:hint="Processor" />
+
+        <TextView
+            android:id="@+id/tvAddWarna"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvAddProcessor"
+            android:text="Warna :"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/edtAddWarnaLaptop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvAddWarna"
+            android:layout_alignLeft="@+id/edtAddMerkLaptop"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/tvAddWarna"
+            android:hint="Warna" />
+
+        <TextView
+            android:id="@+id/tvAddHarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvAddWarna"
+            android:text="Harga :"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/edtAddHargaLaptop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvAddHarga"
+            android:layout_alignLeft="@+id/edtAddMerkLaptop"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/tvAddHarga"
+            android:hint="Harga"
+            android:inputType="number"/>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvAddHarga"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btAddData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Insert"/>
+
+            <Button
+                android:id="@+id/btAddBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvAddMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/LinearLayout"
+            android:hint="Pesan"
+            android:inputType="textMultiLine"
+            android:textSize="20dp"/>
+    </RelativeLayout>
+
+</ScrollView>
